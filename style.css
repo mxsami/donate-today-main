@@ -192,4 +192,66 @@ p {
     font-weight: 400;
     font-size: 18px;
 }
+
 /* my Update Section */
+.My-Update {
+    text-align: center;
+    min-width: 691px;
+    min-height: 130px;
+    margin-bottom: 50px;
+}
+
+.My-Update-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.My-Update-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* --------------  mailing section -----------------------*/
+.mailing-section {
+    /* parent Container  */
+    display: flex;
+    background: #FFF4D6;
+    padding: 90px 206px;
+    justify-content: center;
+    margin: 10px 315px 117px 315px;
+}
+
+.mail-box input {
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 275px;
+    height: 54px;
+    padding-left: 17px;
+    border-color: none;
+}
+
+.subscribe-btn {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    padding: 16px 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+/* footer Section */
+footer {
+    background-color: #121212;
+}
+footer h2 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-weight: 400;
+    font-size: 36px;
+}
