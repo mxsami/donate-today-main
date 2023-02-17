@@ -154,4 +154,42 @@ p {
     font-weight: 400;
     font-size: 16px;
 }
+
 /* blog Section */
+.blog-section {
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.first-blog {
+    display: flex;
+    gap: 94px;
+    padding-right: 230px;
+    padding-left: 150px;
+    /* justify-content: center; */
+}
+
+.blog-img01,
+.blog-img02 {
+    width: 456px;
+    height: 477px;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+}
+
+.blog-details {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* my Update Section */
