@@ -1,10 +1,10 @@
 * {
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
 }
 
 p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header Section */
@@ -102,13 +102,15 @@ p {
     border: 2px solid #FF5959;
     border-radius: 5px;
 }
-.donate-now{
+
+.donate-now {
     text-align: center;
     margin-top: 60px;
 
 }
+
 .donate-now h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #B3B3B3;
@@ -116,3 +118,40 @@ p {
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
+
+/* card Section */
+.card-section {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+    justify-content: center;
+}
+
+.card {
+    width: 360px;
+    height: 352px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 63px 22px 0px 23px;
+}
+
+.card .card-img {
+    width: 58.13px;
+    height: 49.77px;
+    margin-bottom: 31px;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    padding-bottom: 16px;
+}
+
+.card-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* blog Section */
